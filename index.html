@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>小Q的礦石博物館</title>
+    <meta
+      name="description"
+      content="小Q的礦石收藏、野外筆記、愛好者社群與小小博物館商店。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#collection" aria-label="回到收藏展櫃">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>小Q的礦石博物館</strong>
+          <small>Little Q Rock Museum</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="主要導覽">
+        <a href="#collection">展櫃</a>
+        <a href="#journal">筆記</a>
+        <a href="#community">社群</a>
+        <a href="#shop">商店</a>
+      </nav>
+      <button class="cart-button" id="cartToggle" type="button" aria-label="打開購物車">
+        <span aria-hidden="true">🛒</span>
+        <span id="cartCount">0</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="museum-floor" aria-labelledby="museumTitle">
+        <div class="museum-copy">
+          <p class="eyebrow">Discovery Journal · 10 歲館長的自然收藏</p>
+          <h1 id="museumTitle">像打開野外筆記一樣，收藏每一顆石頭的故事。</h1>
+          <p>
+            這裡從小Q的自然採集開始，慢慢整理成一座線上礦石博物館。哥哥可以一起當攝影師、
+            編輯或活動主持人，讓家裡的收藏變成一個真正有人來逛的網站。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-link" href="#collection">參觀展櫃</a>
+            <a class="secondary-link" href="#shop">支持小商店</a>
+          </div>
+        </div>
+        <div class="specimen-stage" aria-label="本月精選礦石展示台">
+          <div class="display-plinth">
+            <span class="crystal crystal-a"></span>
+            <span class="crystal crystal-b"></span>
+            <span class="crystal crystal-c"></span>
+            <span class="crystal crystal-d"></span>
+          </div>
+          <div class="stage-note">
+            <strong>館長精選</strong>
+            <span>紫水晶晶洞與晶面觀察</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-band light-band" id="collection" aria-labelledby="collectionTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Collection</p>
+            <h2 id="collectionTitle">收藏展櫃</h2>
+          </div>
+          <div class="filter-row" id="filters" aria-label="篩選礦石"></div>
+        </div>
+        <div class="specimen-grid" id="specimenGrid"></div>
+      </section>
+
+      <section class="section-band detail-band" id="featured" aria-labelledby="featuredTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Specimen Detail</p>
+            <h2 id="featuredTitle">本月標本深入觀察</h2>
+          </div>
+          <p class="section-note">把一顆標本拆成故事、資料和觀察方法，慢慢養成館長習慣。</p>
+        </div>
+        <div class="detail-layout">
+          <article class="detail-copy">
+            <div class="chip-row">
+              <span>石英家族</span>
+              <span>晶洞</span>
+              <span>館長精選</span>
+            </div>
+            <h3>紫水晶晶洞</h3>
+            <p>
+              紫水晶是石英的一種，顏色來自微量元素和自然輻照。小Q可以從晶面形狀、
+              透明度、顏色深淺和外殼岩質開始觀察，再慢慢補上採集或購買來源。
+            </p>
+            <div class="detail-actions">
+              <a class="primary-link" href="#journal">寫觀察筆記</a>
+              <a class="secondary-link" href="#community">邀請同好討論</a>
+            </div>
+          </article>
+          <div class="detail-display" aria-hidden="true">
+            <div class="macro-card">
+              <span class="macro-crystal macro-a"></span>
+              <span class="macro-crystal macro-b"></span>
+              <span class="macro-crystal macro-c"></span>
+            </div>
+          </div>
+          <div class="field-data">
+            <article>
+              <span>硬度</span>
+              <strong>7</strong>
+              <small>莫氏硬度</small>
+            </article>
+            <article>
+              <span>化學式</span>
+              <strong>SiO₂</strong>
+              <small>二氧化矽</small>
+            </article>
+            <article>
+              <span>光澤</span>
+              <strong>玻璃</strong>
+              <small>Vitreous</small>
+            </article>
+            <article>
+              <span>觀察法</span>
+              <strong>放大鏡</strong>
+              <small>10 倍鏡</small>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-band split-band" id="journal" aria-labelledby="journalTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Field Notes</p>
+            <h2 id="journalTitle">館長筆記</h2>
+          </div>
+        </div>
+        <div class="journal-layout">
+          <article class="feature-panel">
+            <p class="date-label">2026.04.28</p>
+            <h3>第一次幫石頭建立資料卡</h3>
+            <p>
+              先寫下採集地點、日期、顏色、觸感、重量和疑似礦物，再拍一張清楚的正面照。
+              之後每週挑一顆更新，網站就會自然長大。
+            </p>
+            <ul class="note-list">
+              <li>用 10 倍放大鏡觀察晶面</li>
+              <li>不要採集保護區或私人土地上的標本</li>
+              <li>洗乾淨、晾乾、貼上編號再入櫃</li>
+            </ul>
+          </article>
+          <div class="timeline" id="timeline"></div>
+        </div>
+      </section>
+
+      <section class="section-band light-band" id="community" aria-labelledby="communityTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Community</p>
+            <h2 id="communityTitle">愛好者留言牆</h2>
+          </div>
+        </div>
+        <div class="community-layout">
+          <form class="message-form" id="messageForm">
+            <label>
+              名字
+              <input name="name" autocomplete="name" maxlength="18" required />
+            </label>
+            <label>
+              留言
+              <textarea name="message" rows="4" maxlength="140" required></textarea>
+            </label>
+            <button class="primary-button" type="submit">留下訊息</button>
+          </form>
+          <div class="message-wall" id="messageWall"></div>
+        </div>
+      </section>
+
+      <section class="section-band shop-band" id="shop" aria-labelledby="shopTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Museum Shop</p>
+            <h2 id="shopTitle">支持小商店</h2>
+          </div>
+          <p class="section-note">先用測試結帳練習流程，正式收款再接金流。</p>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+    </main>
+
+    <aside class="cart-panel" id="cartPanel" aria-hidden="true" aria-labelledby="cartTitle">
+      <div class="cart-sheet">
+        <div class="cart-header">
+          <h2 id="cartTitle">購物車</h2>
+          <button class="icon-button" id="cartClose" type="button" aria-label="關閉購物車">×</button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-footer">
+          <div class="total-row">
+            <span>合計</span>
+            <strong id="cartTotal">NT$0</strong>
+          </div>
+          <button class="primary-button wide" id="checkoutButton" type="button">前往測試結帳</button>
+        </div>
+      </div>
+    </aside>
+
+    <dialog class="checkout-dialog" id="checkoutDialog">
+      <form method="dialog" class="checkout-form" id="checkoutForm">
+        <div class="cart-header">
+          <h2>測試結帳</h2>
+          <button class="icon-button" value="cancel" type="submit" aria-label="關閉結帳視窗">×</button>
+        </div>
+        <label>
+          收件人
+          <input name="customer" autocomplete="name" required />
+        </label>
+        <label>
+          Email
+          <input name="email" type="email" autocomplete="email" required />
+        </label>
+        <label>
+          付款方式
+          <select name="payment">
+            <option>測試付款</option>
+            <option>綠界金流</option>
+            <option>藍新金流</option>
+          </select>
+        </label>
+        <p class="checkout-summary" id="checkoutSummary"></p>
+        <button class="primary-button wide" value="default" type="submit">送出測試訂單</button>
+      </form>
+    </dialog>
+
+    <template id="specimenTemplate">
+      <article class="specimen-card">
+        <div class="mineral-art" aria-hidden="true"></div>
+        <div class="card-body">
+          <div class="card-title-row">
+            <h3></h3>
+            <span class="tag-pill"></span>
+          </div>
+          <p class="meta"></p>
+          <p class="story"></p>
+          <dl class="facts"></dl>
+        </div>
+      </article>
+    </template>
+
+    <template id="productTemplate">
+      <article class="product-card">
+        <div class="product-art" aria-hidden="true"></div>
+        <div class="card-body">
+          <h3></h3>
+          <p></p>
+          <div class="buy-row">
+            <strong></strong>
+            <button type="button">加入</button>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
